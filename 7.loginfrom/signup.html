@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+  <div class="col-md-6">
+    <form action="" class="form" method="post" id="signupForm">
+    <div class="signup"><h1>SignUp</h1> <br></div> 
+
+
+      <div class="form-group">
+        <label for="" class="form-label">Name:</label>
+        <input type="text" class="name  " id="name" name="name" value=""  >
+        <div  id="nameError"></div> 
+      </div>
+      
+      <div class="form-group">
+        <label for="" class="form-label">Email:</label>
+        <input type="email" class="email  " id="email" name="email"value="" >
+        <div  id="emailError"></div> 
+      </div>
+
+      <div class="form-group">
+        <label for="" class="form-label">Address:</label>
+        <textarea class="address" aria-label="" id="address"name="address" value="" ></textarea>
+        <div  id="addressError"></div> 
+      </div>
+
+      <div class="form-group">
+        <label for="" class="form-label">DOB:</label>
+        <input type="date" class="dob  " id="dob" name="dob" value="" >
+        <div  id="dobError"></div> 
+      </div>
+      
+      <div class="form-group">
+        <label for="" class="form-label">Age:</label>
+        <input type="text" class="age  " id="age" name="age"  >
+        <div  id="ageError"></div> 
+      </div>
+    
+      <div class="form-group">
+        <label for="" class="form-label" value="" id="gender" >Gender:</label>
+        <input type="radio" value="male"  id="gender" name="gender" class="gender" >Male
+        <input type="radio" value="female" id="gender" name="gender"  class="gender" >Female
+        <div class="" id="genderError"></div>
+
+
+      </div>
+      
+
+      <div class="form-group">
+        <label for="" class="form-label">Password</label>
+        <input type="password" class="password" id="password" name="password" value=""  >
+        <span toggle="#password-field"  id="btn2"><i class="fas fa-eye toggle-password"></i></span>
+        <div  id="passwordError"></div> 
+      </div>
+    
+      <div class="form-group">
+        <label for="" class="form-label">Confirm Password</label>
+        <input type="Confirm_password" class="Confirm_Password" id="confirmPassword" name="Confirm_Password" value="" >
+        <span toggle="#password-field"  id="btn2"><i class="fas fa-eye toggle-password"></i></span>
+        <div id="confirmPasswordError"></div> 
+      </div>
+    
+
+      <div class="mb-3">
+        <input type="submit" class="btn btn-secondary" id="submit" value="Submit"  >
+        <div class="" id="Message"></div>
+
+      </div>
+    </form>
+ </div>
+ <script src="scripts.js">
+
+</script>
+</body>
+</html>
