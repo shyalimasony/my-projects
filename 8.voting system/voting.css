@@ -1,0 +1,34 @@
+.container {
+    margin: 10rem;
+    margin-right: 20rem;
+    margin-left: 40rem;
+    width: 50%;
+    border: 3px solid #fffdfd;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(173, 15, 126);
+    color: white;
+    text-wrap: wrap;
+    line-height: 1.5;
+    box-sizing: content-box;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    background-color: #fffdfd;
+    color: black;
+  }
+  hr{
+   background-color: #fffdfd;
+  }
